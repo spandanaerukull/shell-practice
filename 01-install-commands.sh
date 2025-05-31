@@ -12,7 +12,7 @@ else
 
 fi    
 
-dnf install mysqlmddgjs -y
+dnf install mysql -y
 
 
 if [ $? -eq 0 ]
